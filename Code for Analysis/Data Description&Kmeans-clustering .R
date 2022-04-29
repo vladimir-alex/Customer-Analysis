@@ -1,11 +1,10 @@
-# STAT 362 Project
 library(tidyverse)
 library(factoextra)
 library(lubridate)
 library(ggpubr)
 
 # Please change to your own path.
-df <- read.csv("/Applications/文件/STAT 362 Project/marketing_campaign.csv",
+df <- read.csv(".../marketing_campaign.csv",
                sep='\t')
 # -------------------------------------------------------------------------------
 # Preliminary process
